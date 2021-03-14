@@ -7,16 +7,18 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
+  NavBtn,
+  NavBtnLink,
 } from "./navbarElements";
 import { FaBars } from "react-icons/fa";
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
   return (
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/">katelyn</NavLogo>
-          <MobileIcon>
+          <NavLogo to="/">k/d</NavLogo>
+          <MobileIcon onClick={toggle}>
             {/* not a compnent, it's a react icon: */}
             <FaBars />
           </MobileIcon>
@@ -31,6 +33,9 @@ const Navbar = () => {
               <NavLinks to="contact">contact</NavLinks>
             </NavItem>
           </NavMenu>
+          <NavBtn>
+            <NavBtnLink to="/resume">resume</NavBtnLink>
+          </NavBtn>
         </NavbarContainer>
       </Nav>
     </>

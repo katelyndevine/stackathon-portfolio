@@ -4,9 +4,9 @@ import { Link as LinkR } from "react-router-dom"; //for link router
 import { Link as LinkScroll } from "react-scroll"; //for link scroll
 
 export const Nav = styled.nav`
-  background: #000;
-  height: 50px;
-  // margin-top: -80px;
+  background: #021c17;
+  height: 70px;
+  margin-top: -80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,9 +32,10 @@ export const NavbarContainer = styled.div`
 // eventually we'll use both react scroll and react router
 export const NavLogo = styled(LinkR)`
   color: #fff;
+  font-family: "Encode Sans Expanded", sans-serif;
   justify-self: flex-start;
   cursor: pointer;
-  font-size: flex;
+  font-size: 30px;
   display: flex;
   align-items: center;
   margin-left: 24px;
@@ -53,7 +54,7 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 60%); //rotates and centers it
     font-size: 1.8rem;
     cursor: pointer;
-    color: yellow;
+    color: 6affb7;
   }
 `;
 
@@ -86,10 +87,36 @@ export const NavLinks = styled(LinkScroll)`
   &:hover {
     transition: all 0.6s ease-in-out;
     // background: blue;
-    color: cyan;
+    color: #6affb7;
   }
 
   &:active {
     border-bottom: 3px solid yellow;
+  }
+`;
+
+export const NavBtn = styled.nav`
+  display: flex;
+  align-items: center;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+`;
+
+export const NavBtnLink = styled(LinkR)`
+  border-radius: 10px;
+  border: 0.5px solid #6affb7;
+  white-space: nowrap;
+  padding: 4px 15px;
+  color: #6affb7;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  text-decoration: none;
+
+  &:hover {
+    transition: all 0.3s ease-in-out;
+    background: #6affb7;
+    color: #000000;
   }
 `;
