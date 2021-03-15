@@ -54,7 +54,7 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 60%); //rotates and centers it
     font-size: 1.8rem;
     cursor: pointer;
-    color: 6affb7;
+    color: #eebf00;
   }
 `;
 
@@ -90,9 +90,9 @@ export const NavLinks = styled(LinkScroll)`
     color: #6affb7;
   }
 
-  &:active {
-    border-bottom: 3px solid yellow;
-  }
+  // &.active {
+  //   border-bottom: 3px solid yellow;
+  // }
 `;
 
 export const NavBtn = styled.nav`

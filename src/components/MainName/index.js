@@ -10,7 +10,7 @@ import {
 const MainName = () => {
   return (
     <div>
-      <GreetingContainer>
+      <GreetingContainer id="home">
         <InnerContainer>
           <GreetingsP>hello, my name is</GreetingsP>
           <FullNameH1>katelyn devine</FullNameH1>

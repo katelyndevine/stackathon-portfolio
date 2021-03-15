@@ -32,6 +32,30 @@ export const GreetingsP = styled.p`
   font-size: 16px;
   text-align: left;
 
+  // @keyframes slide {
+  //   0% {
+  //     margin-top: -300px;
+  //   }
+  //   5% {
+  //     margin-top: -200px;
+  //   }
+  //   33% {
+  //     margin-top: -200px;
+  //   }
+  //   38% {
+  //     margin-top: -100px;
+  //   }
+  //   66% {
+  //     margin-top: -100px;
+  //   }
+  //   71% {
+  //     margin-top: 0px;
+  //   }
+  //   100% {
+  //     margin-top: 0px;
+  //   }
+  // }
+
   @media screen and (max-width: 768px) {
     font-size: 10px;
   }
@@ -39,10 +63,20 @@ export const GreetingsP = styled.p`
 
 export const FullNameH1 = styled.h1`
   color: white;
-  font-size: 48px;
+  font-size: 70px;
   text-align: left;
   font-family: "Encode Sans Expanded", sans-serif;
   padding: 10px 0px;
+  animation: slide 1s linear;
+
+  @keyframes slide {
+    0% {
+      margin-top: -300px;
+    }
+    100% {
+      margin-top: 0px;
+    }
+  }
 
   @media screen and (max-width: 768px) {
     font-size: 32px;
