@@ -1,12 +1,15 @@
 import React from "react";
 
 import { LogoContainer, InnerContainer } from "./LogoAnimationElements";
+import IconLoader from "./IconLoader";
 
 const LogoAnimation = () => {
   return (
     <div>
       <LogoContainer id="home">
-        <InnerContainer></InnerContainer>
+        <InnerContainer>
+          <IconLoader />
+        </InnerContainer>
       </LogoContainer>
     </div>
   );

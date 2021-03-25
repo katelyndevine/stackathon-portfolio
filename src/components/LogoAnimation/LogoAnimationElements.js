@@ -25,3 +25,7 @@ export const InnerContainer = styled.div`
   // width: 1000px;
   padding: 100, 100;
 `;
+
+export const LogoSVGContainer = styled.div`
+  width: 100px;
+`;
