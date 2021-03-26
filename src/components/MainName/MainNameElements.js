@@ -67,16 +67,16 @@ export const FullNameH1 = styled.h1`
   text-align: left;
   font-family: "Encode Sans Expanded", sans-serif;
   padding: 10px 0px;
-  animation: slide 1s linear;
+  // animation: slide 1s linear;
 
-  @keyframes slide {
-    0% {
-      margin-top: -300px;
-    }
-    100% {
-      margin-top: 0px;
-    }
-  }
+  // @keyframes slide {
+  //   0% {
+  //     margin-top: -300px;
+  //   }
+  //   100% {
+  //     margin-top: 0px;
+  //   }
+  // }
 
   @media screen and (max-width: 768px) {
     font-size: 32px;

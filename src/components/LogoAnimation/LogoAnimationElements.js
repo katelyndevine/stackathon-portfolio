@@ -7,7 +7,7 @@ export const LogoContainer = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 0, 30px;
-  height: 800px;
+  height: 100vh;
   position: relative;
   z-index: 1;
 `;
@@ -19,7 +19,7 @@ export const InnerContainer = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 0, 30px;
-  height: 800px;
+  // height: 800px;
   position: relative;
   z-index: 1;
   // width: 1000px;
