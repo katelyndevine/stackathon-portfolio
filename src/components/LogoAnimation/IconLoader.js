@@ -15,18 +15,12 @@ const IconLoader = () => {
         strokeDashoffset: [anime.setDashoffset, 0],
         easing: "easeInOutSine",
         duration: 1750,
-        // delay: function (el, i) {
-        //   return i * 250;
-        // },
-        // direction: "alternate",
       })
       .add({
         targets: "#logo g #kd",
-        delay: 3750,
-        duration: 700,
-        easing: "easeInOutSine",
-        // opacity: 0.5,
-        // fill: "white",
+        delay: 500,
+        opacity: [{ value: [0, 1], duration: 500, easing: "easeOutQuad" }],
+        color: "#ff3d00",
       })
       .add({
         targets: ".loader",
