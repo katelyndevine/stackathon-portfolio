@@ -77,6 +77,7 @@ export const AboutH1 = styled.h1`
 
 export const AboutUl = styled.ul`
   display: flex;
+  flex-wrap: wrap;
   // align-items: flex-start;
   // align-content: flex-start;
   // list-style: none;
@@ -86,12 +87,12 @@ export const AboutUl = styled.ul`
   list-style-type: square;
   padding: 10px;
   @media screen and (max-width: 768px) {
-    display: none;
+    // display: none;
   }
 `;
 
 export const AboutBul = styled.li`
-  height: 80px;
+  height: 30px;
   color: #6affb7;
   padding-right: 30px;
   font-size: 14px;
@@ -99,8 +100,9 @@ export const AboutBul = styled.li`
 
 export const AboutImgDiv = styled.img`
   height: 250px;
-  width: 150px;
+  width: 200px;
   border: 0.05px dotted white;
   border-radius: 7px;
   margin: 50px;
+  object-fit: cover;
 `;

@@ -9,6 +9,8 @@ import {
   AboutImgDiv,
 } from "./AboutElements";
 
+import headshot from "../../images/headshot.png";
+
 const About = () => {
   // const [hasMounted, setIsMounted] = useState(false);
 
@@ -32,7 +34,7 @@ const About = () => {
           culpa qui officia deserunt mollit anim id est laborum.
         </AboutP>
         <AboutUl>
-          <AboutBul>JavaScript (ES6+)</AboutBul>
+          <AboutBul>JavaScript(ES6+)</AboutBul>
           <AboutBul>React</AboutBul>
           <AboutBul>Node.js</AboutBul>
           <AboutBul>Sequelize </AboutBul>
@@ -40,9 +42,7 @@ const About = () => {
           <AboutBul>HTML + CSS </AboutBul>
         </AboutUl>
       </AboutTextDiv>
-      <AboutImgDiv>
-        {/* <img src="/images/headshot.png" alt="headshot" /> */}
-      </AboutImgDiv>
+      <AboutImgDiv src={headshot} alt="headshot" />
     </AboutContainer>
   );
 };
