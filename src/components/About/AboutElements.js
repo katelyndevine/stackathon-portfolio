@@ -27,6 +27,7 @@ export const AboutTextDiv = styled.div`
   justify-content: center;
   flex-direction: column;
   align-items: flex-start;
+  flex-grow: 2;
   padding: 0, 30px;
   position: relative;
   z-index: 1;
@@ -45,7 +46,7 @@ export const AboutP = styled.p`
   }
 
   @media screen and (max-width: 768px) {
-    font-size: 10px;
+    font-size: 15px;
   }
 `;
 
@@ -83,7 +84,7 @@ export const AboutUl = styled.ul`
   // list-style: none;
   // text-align: center;
   // flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   list-style-type: square;
   padding: 10px;
   @media screen and (max-width: 768px) {
@@ -96,6 +97,10 @@ export const AboutBul = styled.li`
   color: #6affb7;
   padding-right: 30px;
   font-size: 14px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 12px;
+  }
 `;
 
 export const AboutImgDiv = styled.img`
@@ -103,6 +108,11 @@ export const AboutImgDiv = styled.img`
   width: 200px;
   border: 0.05px dotted white;
   border-radius: 7px;
-  margin: 50px;
+  margin: 0 60px 0 20px;
   object-fit: cover;
+
+  @media screen and (max-width: 768px) {
+    width: 150px;
+    height: 200px;
+  }
 `;
