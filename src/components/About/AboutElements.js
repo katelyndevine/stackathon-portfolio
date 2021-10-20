@@ -127,27 +127,16 @@ export const AboutBul = styled.li`
   }
 `;
 
-export const AboutImgDiv = styled.img`
-  // height: 250px;
-  // width: 200px;
+export const AboutImgDiv = styled.div`
   width: 25%;
-  border: 0.05px dotted white;
-  border-radius: 7px;
-  margin-left: 20px;
-  object-fit: cover;
-  justify-content: center;
 
-  // &:hover {
-  //   background-image: url("../../images/headshot-color.jpg");
-  // }
+  // // &:hover {
+  // //   background-image: url("../../images/headshot-color.jpg");
+  // // }
 
   @media screen and (max-width: 600px) {
     margin-top: -75px;
     margin-left: 0px;
     width: 75%;
-  }
-
-  @media screen and (min-width: 992px) {
-    margin-left: 45px;
   }
 `;

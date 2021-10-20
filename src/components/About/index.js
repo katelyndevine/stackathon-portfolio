@@ -1,4 +1,5 @@
 import React from "react";
+import HoverImage from "react-hover-image";
 import {
   AboutContainer,
   AboutTextDiv,
@@ -9,8 +10,8 @@ import {
   AboutImgDiv,
 } from "./AboutElements";
 
-import headshot from "../../images/headshot.png";
-// import colorHeadshot from "../../images/headshot-color.jpg";
+import headshot from "../../images/headshot-bw.jpg";
+import colorHeadshot from "../../images/headshot-color.jpg";
 
 const About = () => {
   // const [hasMounted, setIsMounted] = useState(false);
@@ -46,7 +47,14 @@ const About = () => {
           <AboutBul>HTML + CSS </AboutBul>
         </AboutUl>
       </AboutTextDiv>
-      <AboutImgDiv src={headshot} alt="headshot" />
+      <AboutImgDiv>
+        <HoverImage
+          src={headshot}
+          hoverSrc={colorHeadshot}
+          width={"250px"}
+          className="headshot2"
+        />
+      </AboutImgDiv>
     </AboutContainer>
   );
 };

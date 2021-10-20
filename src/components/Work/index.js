@@ -1,15 +1,16 @@
 import React from "react";
-import { WorkContainer, InnerWorkContainer, WorkImg } from "./WorkElements";
+import {
+  WorkContainer,
+  InnerWorkContainer,
+  WorkH1,
+  WorkImg,
+} from "./WorkElements";
 
 const Work = () => {
   return (
     <WorkContainer id="work">
+      <WorkH1>work</WorkH1>
       <InnerWorkContainer>
-        <WorkImg />
-        <WorkImg />
-        <WorkImg />
-        <WorkImg />
-        <WorkImg />
         <WorkImg />
         <WorkImg />
         <WorkImg />
