@@ -24,7 +24,12 @@ export const GreetingContainer = styled.div`
   }
 
   @media screen and (min-width: 992px) {
-    padding: 125px;
+    padding: 25%;
+  }
+
+  @media screen and (min-width: 1175px) {
+    // padding: 180px;
+    padding: 25%;
   }
 
   @media screen and (min-width: 1200px) {
@@ -77,14 +82,13 @@ export const GreetingsP = styled.p`
   //   }
   // }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 600px) {
     font-size: 10px;
   }
 `;
 
 export const FullNameH1 = styled.h1`
   color: white;
-  font-size: 70px;
   text-align: center;
   font-family: "Encode Sans Expanded", sans-serif;
   padding: 10px 0px;
@@ -99,8 +103,16 @@ export const FullNameH1 = styled.h1`
   //   }
   // }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 500px) {
     font-size: 32px;
+  }
+
+  @media screen and (min-width: 501px) {
+    font-size: 45px;
+  }
+
+  @media screen and (min-width: 650px) {
+    font-size: 70px;
   }
 `;
 
@@ -110,7 +122,7 @@ export const BioP = styled.p`
   font-size: 18px;
   text-align: center;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 600px) {
     font-size: 14px;
   }
 `;

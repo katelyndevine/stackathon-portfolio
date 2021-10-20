@@ -5,9 +5,9 @@ export const WorkContainer = styled.div`
   display: flex;
   justify-content: center;
   // flex-direction: column;
+  padding: 75px;
   align-items: center;
-  padding: 0, 30px;
-  height: 800px;
+  height: 100%;
   position: relative;
   z-index: 1;
   border-top: 2px dotted #6affb7;
@@ -22,7 +22,7 @@ export const InnerWorkContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 50px;
+  margin: 50px;
   flex-direction: row;
 `;
 

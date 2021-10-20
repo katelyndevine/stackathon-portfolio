@@ -23,7 +23,7 @@ const About = () => {
   return (
     <AboutContainer id="about">
       <AboutTextDiv>
-        <AboutH1>About Me</AboutH1>
+        <AboutH1>about me</AboutH1>
         <AboutP>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
