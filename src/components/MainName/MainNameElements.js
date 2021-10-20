@@ -116,6 +116,25 @@ export const FullNameH1 = styled.h1`
   }
 `;
 
+export const NameH2 = styled.h1`
+  color: white;
+  opacity: 40%;
+  text-align: center;
+  font-family: "Encode Sans Expanded", sans-serif;
+  padding: 0px 0 10px 0;
+  @media screen and (max-width: 500px) {
+    font-size: 25px;
+  }
+
+  @media screen and (min-width: 501px) {
+    font-size: 30px;
+  }
+
+  @media screen and (min-width: 650px) {
+    font-size: 50px;
+  }
+`;
+
 export const BioP = styled.p`
   // margin: 10px 150px;
   color: white;
