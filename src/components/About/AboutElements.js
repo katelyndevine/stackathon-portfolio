@@ -3,16 +3,37 @@ import styled from "styled-components";
 export const AboutContainer = styled.div`
   background: #021c17;
   display: flex;
+  flex-wrap: nowrap;
   justify-content: center;
-  // flex-direction: column;
   align-items: center;
-  padding: 0, 30px;
   height: 800px;
   position: relative;
   z-index: 1;
   border-top: 2px dotted #6affb7;
-  // border-top-style: dotted;
-  // border-width: 800px;
+
+  @media screen and (max-width: 600px) {
+    padding: 50px;
+    // go from 2col to 1col:
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  @media screen and (min-width: 600px) {
+    padding: 50px;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 75px;
+  }
+
+  @media screen and (min-width: 992px) {
+    padding: 125px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    // padding: 180px;
+    padding: 15%;
+  }
 `;
 
 // export const AboutInnerContainer = styled.div`
@@ -31,8 +52,11 @@ export const AboutTextDiv = styled.div`
   padding: 0, 30px;
   position: relative;
   z-index: 1;
-  width: 700px;
-  margin: 50px;
+  width: 75%;
+
+  // @media screen and (max-width: 768px) {
+  //   width: 100%;
+  // }
 `;
 
 export const AboutP = styled.p`
@@ -104,15 +128,22 @@ export const AboutBul = styled.li`
 `;
 
 export const AboutImgDiv = styled.img`
-  height: 250px;
-  width: 200px;
+  // height: 250px;
+  // width: 200px;
+  width: 25%;
   border: 0.05px dotted white;
   border-radius: 7px;
-  margin: 0 60px 0 20px;
+  margin-left: 20px;
   object-fit: cover;
+  justify-content: center;
 
-  @media screen and (max-width: 768px) {
-    width: 150px;
-    height: 200px;
+  @media screen and (max-width: 600px) {
+    margin-top: -75px;
+    margin-left: 0px;
+    width: 75%;
+  }
+
+  @media screen and (min-width: 992px) {
+    margin-left: 45px;
   }
 `;
