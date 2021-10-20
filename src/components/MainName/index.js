@@ -15,10 +15,9 @@ const MainName = () => {
           <GreetingsP>hello, my name is</GreetingsP>
           <FullNameH1>katelyn devine</FullNameH1>
           <BioP>
-            I am a software engineer based in Minneapolis, MN.
-            <br />I am passionate about building things that live on the web all{" "}
-            <br />
-            the while adding some aethetic appeal too.
+            I am a software engineer based in Minneapolis, MN. I am passionate
+            about building things that live on the web all the while adding some
+            aethetic appeal too.
           </BioP>
           {/* <ContactBtn /> */}
         </InnerContainer>

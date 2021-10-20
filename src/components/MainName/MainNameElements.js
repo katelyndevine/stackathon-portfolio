@@ -6,10 +6,31 @@ export const GreetingContainer = styled.div`
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 0, 30px;
+  // padding: 0, 30px;
   height: 800px;
   position: relative;
   z-index: 1;
+
+  @media screen and (max-width: 600px) {
+    padding: 60px;
+  }
+
+  @media screen and (min-width: 600px) {
+    padding: 110px;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 130px;
+  }
+
+  @media screen and (min-width: 992px) {
+    padding: 125px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    // padding: 180px;
+    padding: 25%;
+  }
 `;
 
 export const InnerContainer = styled.div`
@@ -64,7 +85,7 @@ export const GreetingsP = styled.p`
 export const FullNameH1 = styled.h1`
   color: white;
   font-size: 70px;
-  text-align: left;
+  text-align: center;
   font-family: "Encode Sans Expanded", sans-serif;
   padding: 10px 0px;
   // animation: slide 1s linear;
@@ -84,7 +105,7 @@ export const FullNameH1 = styled.h1`
 `;
 
 export const BioP = styled.p`
-  margin: 10px 150px;
+  // margin: 10px 150px;
   color: white;
   font-size: 18px;
   text-align: center;
