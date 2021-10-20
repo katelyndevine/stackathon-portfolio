@@ -137,6 +137,10 @@ export const AboutImgDiv = styled.img`
   object-fit: cover;
   justify-content: center;
 
+  // &:hover {
+  //   background-image: url("../../images/headshot-color.jpg");
+  // }
+
   @media screen and (max-width: 600px) {
     margin-top: -75px;
     margin-left: 0px;

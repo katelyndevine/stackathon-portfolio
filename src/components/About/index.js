@@ -10,6 +10,7 @@ import {
 } from "./AboutElements";
 
 import headshot from "../../images/headshot.png";
+// import colorHeadshot from "../../images/headshot-color.jpg";
 
 const About = () => {
   // const [hasMounted, setIsMounted] = useState(false);
@@ -20,6 +21,9 @@ const About = () => {
   // useEffect(() => {
   //   setIsMounted(!hasMounted);
   // });
+  // const [image, setImage] = useState(headshot);
+  // const [hover, setHover] = useState(false);
+
   return (
     <AboutContainer id="about">
       <AboutTextDiv>
