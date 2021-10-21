@@ -29,7 +29,7 @@ const MainName = () => {
             >
               Crew / ThreeBridge
             </a>
-            , where my first project is working as Front End Engineer for{" "}
+            , where my first project is working as a Front End Engineer for{" "}
             <a
               href="https://www.bestbuy.com/"
               target="_blank"
