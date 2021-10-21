@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import Fade from "react-reveal/Fade";
+
 import {
   Nav,
   NavbarContainer,
@@ -33,48 +35,51 @@ const Navbar = ({ toggle }) => {
   };
   return (
     <>
+      {" "}
       <Nav scrollNav={scrollNav}>
-        <NavbarContainer>
-          <NavLogo to="/" onClick={toggleHome}>
-            k/d
-          </NavLogo>
-          <MobileIcon onClick={toggle}>
-            {/* not a compnent, it's a react icon: */}
-            <FaBars />
-          </MobileIcon>
-          <NavMenu>
-            <NavItem>
-              <NavLinks
-                to="about"
-                smooth={true}
-                duration={500}
-                // spy={true}
-                // exact="true"
-                // offset={-80}
-              >
-                about
-              </NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks
-                to="work"
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact="true"
-                offset={-80}
-              >
-                work
-              </NavLinks>
-            </NavItem>
-            <NavItem>
-              <NavLinks to="contact">contact</NavLinks>
-            </NavItem>
-          </NavMenu>
-          <NavBtn>
-            <NavBtnLink to="/resume">resume</NavBtnLink>
-          </NavBtn>
-        </NavbarContainer>
+        <Fade delay={500}>
+          <NavbarContainer>
+            <NavLogo to="/" onClick={toggleHome}>
+              k/d
+            </NavLogo>
+            <MobileIcon onClick={toggle}>
+              {/* not a compnent, it's a react icon: */}
+              <FaBars />
+            </MobileIcon>
+            <NavMenu>
+              <NavItem>
+                <NavLinks
+                  to="about"
+                  smooth={true}
+                  duration={500}
+                  // spy={true}
+                  // exact="true"
+                  // offset={-80}
+                >
+                  about
+                </NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks
+                  to="work"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={-80}
+                >
+                  work
+                </NavLinks>
+              </NavItem>
+              <NavItem>
+                <NavLinks to="contact">contact</NavLinks>
+              </NavItem>
+            </NavMenu>
+            <NavBtn>
+              <NavBtnLink to="/resume">resume</NavBtnLink>
+            </NavBtn>
+          </NavbarContainer>
+        </Fade>
       </Nav>
     </>
   );

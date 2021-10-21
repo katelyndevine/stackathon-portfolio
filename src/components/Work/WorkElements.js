@@ -10,7 +10,7 @@ export const WorkContainer = styled.div`
   height: 100%;
   position: relative;
   z-index: 1;
-  border-top: 2px dotted #6affb7;
+  // border-top: 2px dotted #6affb7;
   // border-top-style: dotted;
   // border-width: 800px;
 `;

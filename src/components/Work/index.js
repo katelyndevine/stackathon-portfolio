@@ -11,7 +11,9 @@ import {
 const Work = () => {
   return (
     <WorkContainer id="work">
-      <WorkH1>work</WorkH1>
+      <Fade delay={200}>
+        <WorkH1>work</WorkH1>
+      </Fade>
       <InnerWorkContainer>
         <Fade delay={200}>
           <WorkImg />{" "}

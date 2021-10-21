@@ -13,7 +13,7 @@ const MainName = () => {
   return (
     <div>
       <GreetingContainer id="home">
-        <Fade delay={500}>
+        <Fade delay={1000}>
           <InnerContainer>
             <GreetingsP>hello, my name is</GreetingsP>
             <FullNameH1>katelyn devine.</FullNameH1>

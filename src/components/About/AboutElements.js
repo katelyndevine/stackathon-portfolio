@@ -9,7 +9,7 @@ export const AboutContainer = styled.div`
   height: 800px;
   position: relative;
   z-index: 1;
-  border-top: 2px dotted #6affb7;
+  // border-top: 2px dotted #6affb7;
 
   @media screen and (max-width: 600px) {
     padding: 50px;

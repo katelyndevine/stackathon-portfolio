@@ -28,7 +28,7 @@ const About = () => {
 
   return (
     <AboutContainer id="about">
-      <Fade effect="fadeInUp" delay={500}>
+      <Fade effect="fadeInUp" delay={200} fraction={0.5}>
         <AboutTextDiv>
           <AboutH1>about me</AboutH1>
           <AboutP>
