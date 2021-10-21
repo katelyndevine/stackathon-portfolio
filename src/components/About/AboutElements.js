@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const AboutContainer = styled.div`
-  background: #021c17;
+  background: #042b24;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
@@ -81,19 +81,6 @@ export const AboutH1 = styled.h1`
   text-align: left;
   font-family: "Encode Sans Expanded", sans-serif;
   padding: 10px 0px;
-  animation-name: fadeIn;
-  animation-duration: 3s;
-  // opacity: ${({ isOpen }) => (isOpen ? "100%" : "")};
-  // top: ${({ isOpen }) => (isOpen ? "0" : "-300%")};
-
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    } // CSS properties at start
-    100% {
-      opacity: 1;
-    }
-  }
 
   @media screen and (max-width: 768px) {
     font-size: 32px;

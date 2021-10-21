@@ -8,7 +8,7 @@ const IconLoader = () => {
     anime
       .timeline({ loop: false })
       .add({
-        duration: 2000,
+        duration: 1000,
       })
       .add({
         targets: "#logo path",

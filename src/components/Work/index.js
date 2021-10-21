@@ -1,4 +1,6 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
+
 import {
   WorkContainer,
   InnerWorkContainer,
@@ -11,9 +13,15 @@ const Work = () => {
     <WorkContainer id="work">
       <WorkH1>work</WorkH1>
       <InnerWorkContainer>
-        <WorkImg />
-        <WorkImg />
-        <WorkImg />
+        <Fade delay={200}>
+          <WorkImg />{" "}
+        </Fade>
+        <Fade delay={200}>
+          <WorkImg />{" "}
+        </Fade>{" "}
+        <Fade delay={200}>
+          <WorkImg />{" "}
+        </Fade>
       </InnerWorkContainer>
     </WorkContainer>
   );

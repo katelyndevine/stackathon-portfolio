@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const WorkContainer = styled.div`
-  background: #021c17;
+  background: #042b24;
   display: flex;
   justify-content: center;
   flex-direction: column;
