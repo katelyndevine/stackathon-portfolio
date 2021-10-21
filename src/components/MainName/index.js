@@ -18,8 +18,26 @@ const MainName = () => {
           <NameH2>I love software development.</NameH2>
           <BioP>
             I am a software engineer based in Minneapolis, MN. I am passionate
-            about building things that live on the web all the while adding some
-            aethetic appeal too.
+            about building things that live on the web that are both functional
+            and aesthetically pleasing. I am currently working as a software
+            engineering consultant for{" "}
+            <a
+              href="https://threebridge.com/solutions/crew/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bioLink"
+            >
+              Crew / ThreeBridge
+            </a>
+            , where my first project is working as Front End Engineer for{" "}
+            <a
+              href="https://www.bestbuy.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bioLink"
+            >
+              Best Buy.
+            </a>
           </BioP>
           {/* <ContactBtn /> */}
         </InnerContainer>

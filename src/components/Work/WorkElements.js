@@ -48,38 +48,9 @@ export const WorkImg = styled.div`
   border: 1px solid white;
   align-items: center;
 
-  // @media screen and (max-width: 768px) {
-  //   height: 125px;
-  //   width: 125px;
-  // }
+  transition: 0.3s;
 
-  // @media screen and (max-width: 415px) {
-  //   width: 275px;
-  //   height: 275px;
-  // }
-
-  // @media screen and (min-width: 600px) {
-  //   width: 275px;
-  //   height: 275px;
-  // }
-
-  // @media screen and (min-width: 768px) {
-  //   width: 275px;
-  //   height: 275px;
-  // }
-
-  // @media screen and (min-width: 992px) {
-  //   width: 275px;
-  //   height: 275px;
-  // }
-
-  // @media screen and (min-width: 1175px) {
-  //   width: 275px;
-  //   height: 275px;
-  // }
-
-  // @media screen and (min-width: 1200px) {
-  //   width: 275px;
-  //   height: 275px;
-  // }
+  &:hover {
+    transform: translate(0, -10px);
+  }
 `;

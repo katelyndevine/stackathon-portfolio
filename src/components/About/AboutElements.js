@@ -134,6 +134,12 @@ export const AboutImgDiv = styled.div`
   // //   background-image: url("../../images/headshot-color.jpg");
   // // }
 
+  transition: 0.3s;
+
+  &:hover {
+    transform: translate(0, -10px);
+  }
+
   @media screen and (max-width: 600px) {
     margin-top: -75px;
     margin-left: 0px;

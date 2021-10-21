@@ -7,7 +7,7 @@ export const GreetingContainer = styled.div`
   flex-direction: column;
   align-items: center;
   // padding: 0, 30px;
-  height: 800px;
+  height: 1000px;
   position: relative;
   z-index: 1;
 
@@ -138,7 +138,7 @@ export const NameH2 = styled.h1`
 export const BioP = styled.p`
   // margin: 10px 150px;
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
 
   @media screen and (max-width: 600px) {
