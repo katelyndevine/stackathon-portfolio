@@ -51,3 +51,9 @@ a:focus::after {
   opacity: 0.5;
   transform: translate3d(0, 0.05em, 0);
 }
+
+.kescml .react-reveal {
+  /* display: flex;
+  justify-content: space-between; */
+  width: 100vw;
+}
