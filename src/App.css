@@ -53,7 +53,5 @@ a:focus::after {
 }
 
 .kescml .react-reveal {
-  /* display: flex;
-  justify-content: space-between; */
   width: 100vw;
 }

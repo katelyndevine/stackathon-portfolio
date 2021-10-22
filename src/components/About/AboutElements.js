@@ -52,7 +52,7 @@ export const AboutTextDiv = styled.div`
   padding: 0, 30px;
   position: relative;
   z-index: 1;
-  width: 75%;
+  width: 100%;
 
   // @media screen and (max-width: 768px) {
   //   width: 100%;
@@ -115,7 +115,7 @@ export const AboutBul = styled.li`
 `;
 
 export const AboutImgDiv = styled.div`
-  width: 25%;
+  // width: 25%;
 
   // // &:hover {
   // //   background-image: url("../../images/headshot-color.jpg");
@@ -128,8 +128,8 @@ export const AboutImgDiv = styled.div`
   }
 
   @media screen and (max-width: 600px) {
-    margin-top: -75px;
-    margin-left: 0px;
+    margin-top: -25px;
+    margin-left: -10px;
     width: 75%;
   }
 `;
