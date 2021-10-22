@@ -37,7 +37,7 @@ const Navbar = ({ toggle }) => {
     <>
       {" "}
       <Nav scrollNav={scrollNav}>
-        <Fade delay={500} className="navFade">
+        <Fade delay={500}>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
               k/d

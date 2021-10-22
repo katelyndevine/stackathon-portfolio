@@ -27,14 +27,14 @@
 }
 
 /* Hover link underline animation: */
-a {
+#home a {
   text-decoration: none;
   color: #6affb7;
   position: relative;
   /* padding: 50 10 50; */
 }
 
-a::after {
+#home a::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -46,7 +46,7 @@ a::after {
   transition: opacity 300ms, transform 300ms;
 }
 
-a:hover::after,
+#home a:hover::after,
 a:focus::after {
   opacity: 0.5;
   transform: translate3d(0, 0.05em, 0);
