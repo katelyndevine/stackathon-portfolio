@@ -36,21 +36,12 @@ export const AboutContainer = styled.div`
   }
 `;
 
-// export const AboutInnerContainer = styled.div`
-//   width: 800px;
-//   position: relative;
-//   z-index: 1;
-//   border-top-style: 2px dotted 6affb7;
-// `;
-
-export const Hr = styled.hr`
+export const Separator = styled.hr`
   border-top: 2px dotted #6affb7;
   background: #042b24;
 
   border-bottom: none;
   border-left: none;
-  // width: 125%;
-  // margin-top: 10px;
 `;
 
 export const AboutTextDiv = styled.div`

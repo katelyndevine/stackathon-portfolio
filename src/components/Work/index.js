@@ -8,24 +8,29 @@ import {
   WorkImg,
 } from "./WorkElements";
 
+import { Separator } from "../About/AboutElements";
+
 const Work = () => {
   return (
-    <WorkContainer id="work">
-      <Fade delay={200}>
-        <WorkH1>work</WorkH1>
-      </Fade>
-      <InnerWorkContainer>
+    <div>
+      <Separator />
+      <WorkContainer id="work">
         <Fade delay={200}>
-          <WorkImg />{" "}
+          <WorkH1>work</WorkH1>
         </Fade>
-        <Fade delay={200}>
-          <WorkImg />{" "}
-        </Fade>{" "}
-        <Fade delay={200}>
-          <WorkImg />{" "}
-        </Fade>
-      </InnerWorkContainer>
-    </WorkContainer>
+        <InnerWorkContainer>
+          <Fade delay={200}>
+            <WorkImg />{" "}
+          </Fade>
+          <Fade delay={200}>
+            <WorkImg />{" "}
+          </Fade>{" "}
+          <Fade delay={200}>
+            <WorkImg />{" "}
+          </Fade>
+        </InnerWorkContainer>
+      </WorkContainer>
+    </div>
   );
 };
 

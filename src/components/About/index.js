@@ -9,7 +9,7 @@ import {
   AboutUl,
   AboutBul,
   AboutImgDiv,
-  Hr,
+  Separator,
 } from "./AboutElements";
 
 import headshot from "../../images/headshot-bw.jpg";
@@ -29,7 +29,7 @@ const About = () => {
 
   return (
     <div>
-      <Hr />
+      <Separator />
       <AboutContainer id="about">
         <Fade effect="fadeInUp" fraction={0.9}>
           <AboutTextDiv>
