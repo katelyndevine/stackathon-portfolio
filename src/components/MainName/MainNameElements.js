@@ -7,7 +7,7 @@ export const GreetingContainer = styled.div`
   flex-direction: column;
   align-items: center;
   // padding: 0, 30px;
-  height: 1000px;
+  height: 100%vh;
   position: relative;
   z-index: 1;
 

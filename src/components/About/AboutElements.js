@@ -43,6 +43,16 @@ export const AboutContainer = styled.div`
 //   border-top-style: 2px dotted 6affb7;
 // `;
 
+export const Hr = styled.hr`
+  border-top: 2px dotted #6affb7;
+  background: #042b24;
+
+  border-bottom: none;
+  border-left: none;
+  // width: 125%;
+  // margin-top: 10px;
+`;
+
 export const AboutTextDiv = styled.div`
   display: flex;
   justify-content: center;
@@ -81,6 +91,25 @@ export const AboutH1 = styled.h1`
   text-align: left;
   font-family: "Encode Sans Expanded", sans-serif;
   padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  margin-right: 20px;
+
+  &:after {
+    content: "";
+    display: block;
+    position: relative;
+    height: 1px;
+    background-color: #ffff;
+    z-index: 999;
+    width: 50%;
+    margin-left: 15px;
+    opacity: 0.2;
+  }
 
   @media screen and (max-width: 768px) {
     font-size: 32px;

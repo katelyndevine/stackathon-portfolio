@@ -10,6 +10,7 @@ export const Nav = styled.nav`
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
   font-size: 1rem; //default is 16px
   position: sticky; // A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
   top: 0;
@@ -23,9 +24,10 @@ export const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
   height: 80px;
+  margin: 0;
   z-index: 1;
   width: 100%;
-  padding: 0 24px;
+  padding: 0px 24px;
   max-width: 1100px;
 `;
 

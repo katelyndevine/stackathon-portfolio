@@ -51,7 +51,23 @@ a:focus::after {
   opacity: 0.5;
   transform: translate3d(0, 0.05em, 0);
 }
-
-.kescml .react-reveal {
+.dcdrrE .react-reveal {
   width: 100vw;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.hKjBTz {
+  margin: 0px;
+  width: 100vw;
+}
+
+/* .kescml .react-reveal {
+  width: 100vw;
+} */
+
+#about .react-reveal {
+  display: flex;
+  flex-direction: column;
 }
