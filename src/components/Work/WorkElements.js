@@ -16,10 +16,10 @@ export const WorkContainer = styled.div`
 `;
 
 export const InnerWorkContainer = styled.div`
-  display: grid;
+  display: flex;
   flex-direction: row;
   align-items: center;
-  grid-gap: 30px;
+  // grid-gap: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -47,6 +47,7 @@ export const WorkImg = styled.div`
   border-radius: 4px;
   border: 1px solid white;
   align-items: center;
+  margin: 20px;
 
   transition: 0.3s;
 
