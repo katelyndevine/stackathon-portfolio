@@ -9,7 +9,6 @@ export const AboutContainer = styled.div`
   height: 800px;
   position: relative;
   z-index: 1;
-  // border-top: 2px dotted #6affb7;
 
   @media screen and (max-width: 600px) {
     padding: 50px;
@@ -90,6 +89,7 @@ export const AboutH1 = styled.h1`
   width: 100%;
   margin-right: 20px;
 
+  // this is the header line separator:
   &:after {
     content: "";
     display: block;
@@ -104,6 +104,10 @@ export const AboutH1 = styled.h1`
 
   @media screen and (max-width: 768px) {
     font-size: 32px;
+  }
+
+  @media screen and (max-width: 411px) {
+    font-size: 18px;
   }
 `;
 
